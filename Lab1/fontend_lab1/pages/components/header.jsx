@@ -40,7 +40,7 @@ const Header = () => {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse " id="navbarTogglerDemo01">
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                   <a className="navbar-brand">
                     <span className="text-success">HPL</span>
                     <span>TRADE</span>
@@ -48,17 +48,17 @@ const Header = () => {
                 </Link>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="/" legacyBehavior>
                       <a className="nav-link text-black">Trang Chủ</a>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/gioithieu">
+                    <Link href="/gioithieu" legacyBehavior>
                       <a className="nav-link text-black">Giới thiệu</a>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/sanpham">
+                    <Link href="/sanpham" legacyBehavior>
                       <a className="nav-link text-black">Sản Phẩm Đấu Giá</a>
                     </Link>
                   </li>
@@ -87,7 +87,7 @@ const Header = () => {
               id="cart"
               className="position-relative d-flex justify-content-center align-items-center rounded-circle bg-black bg-opacity-10 px-2 py-1 "
             >
-              <Link href="/giohang">
+              <Link href="/giohang" legacyBehavior>
                 <a>
                   <i className="bi bi-cart fs-5 fw-bolder text-dark" />
                 </a>
@@ -105,7 +105,7 @@ const Header = () => {
               id="account"
               className="d-flex justify-content-center align-items-center rounded-circle bg-black bg-opacity-10  mx-2 px-2 py-1"
             >
-              <Link href="/dangnhap">
+              <Link href="/dangnhap" legacyBehavior>
                 <a>
                   <i className="bi bi-person-circle fs-5 fw-bolder text-dark" />
                 </a>
