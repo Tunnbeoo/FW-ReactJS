@@ -175,8 +175,8 @@ const Header = () => {
             </div>
           </div>
           <div className="col-md-3 m-0">
-            <img className="img-fluid" src="/img/banner3.jpeg" alt="" /> {/* Đường dẫn tương đối */}
-            <img className="img-fluid mt-2" src="/img/banner4.jpeg" alt="" /> {/* Đường dẫn tương đối */}
+            <img className="img-fluid" src="/img/banner3.jpeg" alt="" /> 
+            <img className="img-fluid mt-2" src="/img/banner4.jpeg" alt="" /> 
           </div>
         </div>
       </div>
