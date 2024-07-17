@@ -11,6 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
+    <html>
+      <body>
       <Head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
       </Head>
@@ -19,6 +21,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </div>
+      </body>
+      </html>
     </>
   );
 }

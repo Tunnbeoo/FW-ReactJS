@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -19,7 +19,8 @@ const Header = () => {
               </div>
               <div className="col-md-6 pt-3 d-flex align-items-end justify-content-end">
                 <p>
-                  <i className="bi bi-telephone-fill me"></i> HOTLINE: 0987654321{" "}
+                  <i className="bi bi-telephone-fill me"></i> HOTLINE:
+                  0987654321{" "}
                 </p>
               </div>
             </div>
@@ -39,7 +40,10 @@ const Header = () => {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="collapse navbar-collapse " id="navbarTogglerDemo01">
+              <div
+                className="collapse navbar-collapse "
+                id="navbarTogglerDemo01"
+              >
                 <Link href="/" legacyBehavior>
                   <a className="navbar-brand">
                     <span className="text-success">HPL</span>
@@ -69,13 +73,13 @@ const Header = () => {
                     <a className="nav-link text-black">Liên hệ</a>
                   </li>
                 </ul>
-                <form className="d-flex ms-4" action="/timkiem">
+                <form class="d-flex ms-4" action="/timkiem">
                   <input
-                    className="form-control me-2"
+                    class="form-control me-2"
                     name="keyword"
                     placeholder="Nhập tên sản phẩm"
                   />
-                  <button className="btn btn-outline-success" type="submit">
+                  <button class="btn btn-outline-success" type="submit">
                     Tìm
                   </button>
                 </form>
@@ -141,14 +145,14 @@ const Header = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="/img/img0.jpeg" 
+                    src="/img/img0.jpeg"
                     className="d-block w-100"
                     alt="..."
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="/img/img1.jpeg"  
+                    src="/img/img1.jpeg"
                     className="d-block w-100"
                     alt="..."
                   />
@@ -160,7 +164,10 @@ const Header = () => {
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev"
               >
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
                 <span className="visually-hidden">Previous</span>
               </button>
               <button
@@ -169,14 +176,17 @@ const Header = () => {
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next"
               >
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
           </div>
           <div className="col-md-3 m-0">
-            <img className="img-fluid" src="/img/banner3.jpeg" alt="" /> 
-            <img className="img-fluid mt-2" src="/img/banner4.jpeg" alt="" /> 
+            <img className="img-fluid" src="/img/banner3.jpeg" alt="" />
+            <img className="img-fluid mt-2" src="/img/banner4.jpeg" alt="" />
           </div>
         </div>
       </div>
